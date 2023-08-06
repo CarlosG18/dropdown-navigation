@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/generic.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+  <header>
+    <li class="mr-50"><a class="nav-link flex center" href=""><img class="logo" src="./images/logo.svg" alt="logo"></a></li>
+    <nav class="nav-element">
+      <button class="icon icon-close-menu">
+        <img src="./images/icon-close-menu.svg" alt="icon-close-menu">
+      </button>
+      <ul class="nav-menu position-rel">
+        <li class="nav-item nav-item-drop">
+          <div class="nav-item-drop-title">
+            <p>Features</p>
+            <img class="arrow-down arrow1" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+          </div>
+          <ul class="nav-menu-drop position-ajust position-abs">
+            <li>
+              <a class="nav-link" href="#">
+                <img src="./images/icon-todo.svg" alt="icon-todo"> 
+                Todo List
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="">
+                <img src="./images/icon-calendar.svg" alt="icon-calendar"> 
+                Calendar
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="">
+                <img src="./images/icon-reminders.svg" alt="icon-reminders"> 
+                Reminders
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="">
+                <img src="./images/icon-planning.svg" alt="icon-plannig"> 
+                Planning
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item nav-item-drop position-rel">
+          <div class="nav-item-drop-title">
+            <p>Company</p>
+            <img class="arrow-down arrow2" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+          </div>
+          <ul class="nav-menu-drop position-abs">
+            <li><a class="nav-link" href="#">History</a></li>
+              <li><a class="nav-link" href="">Our Team</a></li>
+              <li><a class="nav-link" href="">Blog</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="">Careers</a></li>
+        <li class="nav-item"><a class="nav-link" href="">About</a></li>
+      </ul>
+
+      <ul class="nav-menu cad">
+        <li class="nav-item"><a class="nav-link" href="">Login</a></li>
+        <li class="nav-item btn"><a class="nav-link" href="">Register</a></li>
+      </ul>
+    </nav>
+    <button class="icon icon-menu">
+      <img src="./images/icon-menu.svg" alt="icon-menu">
+    </button>
+  </header>
+        
+  <main>
+    <div class="box-presentation">
+      <div class="box-presentation-header">
+        <h1 class="title">Make</h1>
+        <h1 class="title">remote work</h1>
+      </div>
+      <p class="box-presentation-content">
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <div class="btn1">Learn more</div>
+      <div class="box-imgs-empresas">
+        <div class="img-empresa">
+          <img src="./images/client-databiz.svg" alt="databiz-logo">
+        </div>
+        <div class="img-empresa">
+          <img src="./images/client-audiophile.svg" alt="audiophile-logo">
+        </div>
+        <div class="img-empresa">
+          <img src="./images/client-meet.svg" alt="meet-logo">
+        </div>
+        <div class="img-empresa">
+          <img src="./images/client-maker.svg" alt="maker-logo">
+        </div>
+      </div>
+    </div>  
+    <div class="box-ilustration">
+      <img class="ilustration" src="./images/image-hero-desktop.png" alt="image-hero">
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/CarlosG18">Carlos Gabriel</a>.
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

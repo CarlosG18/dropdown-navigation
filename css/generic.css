@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.mr-50{
+    margin-right: 50px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--Medium_Gray);
+    transition: all 0.7s;
+}
+
+a:hover{
+    color: var(--Almost_Black);
+}
+
+.position-rel{
+    position: relative;
+}
+
+.position-abs{
+    position: absolute;
+}
+
+.zindex{
+    z-index: 1;
+}
+
+.gap-50{
+    gap: 50px;
+}
