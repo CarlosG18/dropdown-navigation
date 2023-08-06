@@ -13,9 +13,9 @@ window.addEventListener('resize', () => {
         dropMenu.forEach(element => {
             element.classList.add('position-abs')
         })
-       // ilustration.src = "{% static 'images/image-hero-desktop.png' %}"
+        ilustration.src = "./images/image-hero-desktop.png"
     }else{
-       // ilustration.src = "{% static 'images/image-hero-mobile.png' %}"
+        ilustration.src = "./images/image-hero-mobile.png"
     }
 })
 

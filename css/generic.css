@@ -56,3 +56,7 @@ a:hover{
 .gap-50{
     gap: 50px;
 }
+
+footer{
+    margin: 20px;
+}
